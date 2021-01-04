@@ -1,0 +1,160 @@
+*{
+  box-sizing: border-box;
+}
+
+
+header{
+  background-color: #223134e6;
+  width: 100%;
+  height: 65px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+.header-left{
+  width: 124px;
+  float:left;
+}
+.header-right{
+  float: right;
+}
+.header-right a{
+padding: 0 25px;
+display: block;
+line-height: 65px;
+float: left;
+color:white;
+transition: all 1s;
+}
+.header-right a:hover{
+  background-color:rgba(255,255,255,0.3);
+}
+.top-wrapper{
+  padding-top: 180px;
+  padding-bottom: 100px;
+  background-image: url("https://prog-8.com/images/html/advanced/top.png");
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+.top-wrapper h1{
+  font-size: 45px;
+  font-weight: normal;
+  letter-spacing: 5px;
+  opacity: 0.7;
+}
+.top-wrapper p{
+  opacity: 0.7;
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn{
+  color: white;
+  padding: 8px 24px;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+.btn:hover{
+  opacity: 1;
+}
+.fa{
+  margin-right: 5px;
+}
+.signup{
+  background-color: #239b76;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.facebook{
+  background-color:#3b5998 ;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.twitter{
+  background-color:#55acee ;
+  margin-top: 15px;
+}
+
+
+.lesson-wrapper{
+   text-align: center;
+   background-color:#f7f7f7;
+   padding-right: 5%;
+   padding-left: 5%;
+   padding-bottom: 80px;
+}
+.heading{
+  font-weight: normal;
+  padding: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+.lesson{
+float: left;
+width: 25%;
+}
+.lesson-icon{
+  padding-bottom: 15px;
+  position: relative;
+}
+.lesson-icon p{
+  position: absolute;
+  top:80px;
+  width:100%;
+  color:white;
+
+}
+.txt-contents{
+  font-size: 13px;
+}
+.heading{
+  font-weight: normal;
+}
+.message-wrapper{
+  text-align: center;
+  width: 100%;
+  margin: 80px 0;
+}
+
+.btn-message{
+  background-color: #5dca88;
+  opacity: 0.8;
+  padding: 15px 40px;
+  box-shadow:0 7px #1a7940;
+  cursor: pointer;
+}
+.btn-message:active{
+  box-shadow: none;
+  position: relative;
+  top:7px
+}
+footer{
+  border-top:1px solid #eee;
+}
+footer img{
+  width: 124px;
+  padding-top: 30px;
+}
+footer p{
+  font-size: 12px;
+  color: #b3aeb5;
+  padding-bottom: 30px;
+}
+/* スマホ用メニューアイコン */
+.menu-icon{
+  float: right;
+  color:white;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+
+}
+.clear{
+  clear: left;
+}
