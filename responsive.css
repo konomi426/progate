@@ -1,0 +1,56 @@
+/* タブレット */
+@media(max-width:1000px){
+.lesson{
+  width: 50%;
+}
+.top-wrapper h1{
+  font-size: 32px;
+}
+.lesson{
+  width: 50%;
+  margin-bottom: 50px;
+}
+.heading h2{
+  font-size: 20px;
+}
+footer{
+  text-align: center;
+}
+}
+
+/* モバイル */
+@media(max-width:670px){
+  .header-right{
+    display: none;
+  }
+  .menu-icon{
+    display: block;
+  }
+.top-wrapper p{
+  font-size: 14px;
+}
+.top-wrapper {
+  text-align: left;
+}
+.top-wrapper .btn{
+  width: 100%;
+}
+.facebook{
+  margin-bottom: 10px;
+}
+.btn-wrapper a{
+text-align: center;
+}
+.btn-wrapper p{
+  text-align: center;
+}
+.btn-message[
+  width: 100%;
+]
+.lesson{
+  width: 100%;
+}
+footer{
+  text-align: center;
+}
+}
